@@ -10,7 +10,7 @@ Feature: Multi Device Demo Scenarios
     And I switch to driver "perfecto2"
     And I click on "//*[@text="Internal storage"]"
     And I click on "//*[@text="Download"]"
-    And I click on "//*[@text="CoffeeReceipt.jpg"]"
+    And I click on "(//*[@resource-id="com.sec.android.app.myfiles:id/thumbnail_layout"])[1]"
     And I switch to driver "perfecto"
     And I click on "//*[@class="dynamsoft-camera-font dynamsoft-camera-icon-scan"]"
     And I wait for "5" seconds
